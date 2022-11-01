@@ -5,7 +5,7 @@
 FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b Yanzz-Userbot https://github.com/YanzzKids/Yanzz-Userbot /home/yanzzuserbot/ \
-    && chmod 777 /home/ayiinuserbot \
+    && chmod 777 /home/yanzzuserbot \
     && mkdir /home/yanzzuserbot/bin/
 
 COPY ./sample_config.env ./config.env* /home/yanzzuserbot/
